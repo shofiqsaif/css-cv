@@ -1,14 +1,15 @@
 body {
     background-color: #fff5eb;
+    font-family: 'Merriweather', serif;
+    text-align: center;
 }
 
 hr {
-    background-color: #fff5eb;
     border-style: dotted none none none;
-    border-width: 5px;
-    border-color: #a7c4bc;
+    border-width: 10px;
+    border-color: #0c9971;
     height: 10%;
-    width: 10%;
+    width: 50%;
 }
 p {
     font-size: larger;
@@ -16,6 +17,16 @@ p {
 
 h1 {
     color: #867AE9;
+    
+    font-family: 'Sacramento', cursive;
+    font-size: xx-large;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -24,7 +35,6 @@ div{
 }
 .top-container{
     background-color: #E99497;
-    width: 33%;
     border: solid;
     text-align: center;
     position: relative;
@@ -33,12 +43,13 @@ div{
 
 .middle-container{
     background-color: #F3C583;
-    width: 33%;
+    text-align: center;
+    
 }
 
 .bottom-container{
     background-color: #E8E46E;
-    width: 33%;
+    
 }
 
 
@@ -53,4 +64,17 @@ pro{
 
 .bottom-cloud{
     position: absolute;
+}
+
+.me{
+    height: 512px;
+    width: auto;
+}
+.profile{
+    text-align: center;
+}
+
+.circular{
+    height: 255px;
+    width: auto;
 }
