@@ -9,7 +9,9 @@ hr {
     border-width: 10px;
     border-color: #0c9971;
     height: 10%;
-    width: 50%;
+    width: 25%;
+    margin: 100px auto;
+    
 }
 p {
     font-size: larger;
@@ -17,12 +19,14 @@ p {
 
 h1 {
     color: #867AE9;
-    
+
     font-family: 'Sacramento', cursive;
-    font-size: xx-large;
+    font-size: 5.625rem;
+    margin-bottom: 0;
 }
 
 h2{
+    font-size: 2.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 h3{
@@ -74,7 +78,20 @@ pro{
     text-align: center;
 }
 
-.circular{
-    height: 255px;
-    width: auto;
+.code-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.dl-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.skill-row{
+    width: 45%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+    float: left;
 }
