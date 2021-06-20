@@ -1,0 +1,56 @@
+body {
+    background-color: #fff5eb;
+}
+
+hr {
+    background-color: #fff5eb;
+    border-style: dotted none none none;
+    border-width: 5px;
+    border-color: #a7c4bc;
+    height: 10%;
+    width: 10%;
+}
+p {
+    font-size: larger;
+}
+
+h1 {
+    color: #867AE9;
+}
+
+
+div{
+    padding-left: 2%;
+}
+.top-container{
+    background-color: #E99497;
+    width: 33%;
+    border: solid;
+    text-align: center;
+    position: relative;
+
+}
+
+.middle-container{
+    background-color: #F3C583;
+    width: 33%;
+}
+
+.bottom-container{
+    background-color: #E8E46E;
+    width: 33%;
+}
+
+
+pro{
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: relative;
+    left:25%;
+}
+
+.bottom-cloud{
+    position: absolute;
+}
